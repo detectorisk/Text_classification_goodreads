@@ -1,9 +1,10 @@
 # Text_classification_goodreads
  goodreads_rating_prediction
 
-#Overview:
-
 The focus of this project is to predict the review scores on goodreads from just review text written by users. This kind of text classification (into 5 classes of scores) has been done through deep neural networks. These results, both show the significance of using a neural network for this problem, as well as the need to move toward more computationally complex and deep networks. 
+
+
+#Overview:
 
 We started with some descriptory analysis, to see general trends within our training data. Then, we built a basic machine learning text classification model using logistical regression. Having that as our ML baseline, we built a simple 3 layer neural network, using 1 dense layer, 1 embedding layer, and one output layer. We looked for accuracy levels in both test and train datasets, and checked if our results are robust, avoiding overfitting (as these models can often get). After this, we began investigating optimal number of neurons within this basic 3 layer neural network by checking model performance for varying neurons. 
 
